@@ -1,0 +1,78 @@
+
+.cTotal{
+    max-width: 300px;
+    background-color: rgba(220, 228, 227, 0.288);
+}
+.cEstanco{
+    display : flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+.cEs2{
+    display : flex;
+    justify-content: space-between;
+    padding:2px;
+}
+.cSelect{
+    padding:0px;
+    margin-left: 10px;
+}
+.cResultados{
+    display : flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5px;
+}
+.cResults{
+    display : flex;
+    padding: 10px;
+    justify-content: space-between;
+    margin-top: auto;
+    margin-bottom: auto;
+    max-height: 30px;
+}
+.cCalcular{
+    display: flex;
+    padding: 0px;
+    width: 100%;
+    justify-content: center;
+
+}
+.cCalcular{
+    padding: 5px;
+    width: 90%;
+    height: 30px;
+    background-color: rgb(73, 207, 73);
+    margin-left: auto;
+    margin-right: auto;
+}
+.cCalcular:disabled{
+    padding: 5px;
+    width: 90%;
+    height: 30px;
+    background-color: rgb(200, 240, 200);
+    margin-left: auto;
+    margin-right: auto;
+}
+.cCalcular:active{
+    position: relative;
+    top:1px;
+    padding: 5px;
+    width: 90%;
+    height: 30px;
+    background-color: rgb(73, 207, 73);
+    margin-left: auto;
+    margin-right: auto;
+}
+.cText{
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align:right;
+    width: 60%;
+}
+.cNum{
+    background-color: rgba(220, 228, 227, 0.288);
+    justify-content: right;
+    margin-top: auto;
+    margin-bottom: auto;
+}
